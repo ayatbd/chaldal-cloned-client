@@ -2,7 +2,7 @@ import { IoSearch } from "react-icons/io5";
 
 const LandingBanner = () => {
   return (
-    <div className="landingBanner h-[340px] flex items-center justify-between gap-4 ">
+    <div className="landingBanner h-[320px] flex items-center justify-between gap-4">
       <div className="basis-1/2">
         <div className="pl-5 flex flex-col gap-7">
           <h1 className="text-[40px] text-black font-bold text-left px-3">
@@ -10,6 +10,7 @@ const LandingBanner = () => {
           </h1>
           <div className="w-full pl-3">
             <form
+              id="hero"
               className="w-full h-[40px]" // fixed height instead of min-h
               aria-labelledby="newsletter-headline"
             >

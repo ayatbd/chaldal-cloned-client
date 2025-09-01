@@ -17,6 +17,10 @@
     transition: all 100ms ease-in-out
 }
 
+/*=======================================
+Landing Banner sectoion css 
+========================================*/
+
 .landingBanner {
     /* background: url(https://chaldn.com/asset/egg-chaldal-web-release-id-27065/https/Default/stores/chaldal/components/landingPage2/LandingPage/images/landingBanner.png) no-repeat center; */
     background-image: url(https://chaldn.com/asset/egg-chaldal-web-release-id-27065/https/Default/stores/chaldal/components/landingPage2/LandingPage/images/landingBanner.png);
@@ -24,3 +28,48 @@
     background-position: center;
     background-size: cover;
 }
+
+
+/*==========================
+Delivery Info
+============================*/
+
+.categoryBox {
+    border: 2px solid rgba(0, 0, 0, .05);
+    margin: 1%;
+    padding: 10px 5px 10px 0;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.textColor {
+    color: #FF6F71;
+}
+
+/* .mainTile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: visible;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+}
+
+
+.categoryImg {
+    width: 30%;
+    margin-right: 2%;
+}
+
+.categoryImg svg {
+    width: 30px;
+    height: 30px;
+}
+
+.categoryName {
+    font-size: 16px;
+    text-align: left;
+    width: 65%;
+} */
