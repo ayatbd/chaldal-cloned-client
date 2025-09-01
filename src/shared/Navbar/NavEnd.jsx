@@ -38,9 +38,11 @@ const NavEnd = () => {
           <FaChevronDown className="text-[#FF6F71]" />
         </p>
       </button>
-      <div className="flex items-center gap-1 bg-white rounded-lg py-1 px-[10px] cursor-pointer">
-        <span className="text-[#FF6F71] font-[700] text-[14px] ">EN</span>
-        <span className="font-[700] text-[14px] hover:text-[#FF6F71]">বাং</span>
+      <div className="flex items-center bg-white rounded-full py-0.5 px-[10px] cursor-pointer">
+        <span className="text-[#FF6F71] font-[700] text-[14px] pr-2">EN</span>
+        <span className="font-[700] text-[14px] hover:text-[#FF6F71] border-l-1 border-gray-200 pl-2">
+          বাং
+        </span>
       </div>
       <div>
         <button
