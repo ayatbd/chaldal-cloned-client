@@ -4,6 +4,7 @@ import Categories from "./Categories";
 import Popular from "./Popular";
 import DownloadApp from "./DownloadApp";
 import ChaldalInfo from "./ChaldalInfo";
+import CurrentDelivery from "./CurrentDelivery";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <Popular></Popular>
       <DownloadApp></DownloadApp>
       <ChaldalInfo></ChaldalInfo>
+      <CurrentDelivery></CurrentDelivery>
     </div>
   );
 };

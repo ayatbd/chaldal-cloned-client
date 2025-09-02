@@ -85,14 +85,27 @@ Download app section css
     background-repeat: no-repeat;
 }
 
-/* .mainTile {
+/*==========================
+Current Delivery section css
+============================*/
+
+.cityBox {
+    background: url("https://chaldn.com/asset/egg-chaldal-web-release-id-27065/https/Default/stores/chaldal/components/landingPage2/LandingPage/images/city-background.png") center center / cover no-repeat;
+    height: 350px;
+}
+
+.cityContainer {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    margin-top: 20px;
-    margin-inline: 5%;
-} */
-/* 
-.infoBox {
-    width: 33%;
-} */
+    border-radius: 25px;
+    font-size: 18px;
+    background-color: #fdd670;
+    color: #070707;
+    text-align: center;
+    margin: 1%;
+    padding: 0;
+    align-items: center;
+    width: 15%;
+    min-height: 50px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, .19);
+}
