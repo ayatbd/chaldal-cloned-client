@@ -80,6 +80,7 @@ Download app section css
 
 .downloadApp {
     background-image: url(https://chaldn.com/asset/egg-chaldal-web-release-id-27065/https/Default/stores/chaldal/components/landingPage2/LandingPage/images/downloadAppBackground.png);
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -91,7 +92,7 @@ Download app section css
     margin-top: 20px;
     margin-inline: 5%;
 } */
-
+/* 
 .infoBox {
     width: 33%;
-}
+} */

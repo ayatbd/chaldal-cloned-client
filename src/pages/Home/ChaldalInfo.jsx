@@ -3,30 +3,18 @@ import "../../styles/style.css";
 const ChaldalInfo = () => {
   return (
     <div>
-      <div
-        className="mainTile grid grid-cols-3 grid-rows-2 justify-items-center gap-4"
-        data-reactid=".xg80fy4quu.h.2.0.0.9.0"
-      >
-        <div
-          className="infoBox w-[100%] py-3 px-4 flex flex-col justify-center items-center bg-[#F5F5F5] rounded-[10px] "
-          data-reactid=".xg80fy4quu.h.2.0.0.9.0.$1"
-        >
-          <div className="infoContainer flex items-center justify-between">
+      <div className="mainTile py-8 px-[12%] grid grid-cols-3 grid-rows-2 justify-items-center gap-4">
+        <div className="infoBox w-[100%] min-h-[130px] py-4 px-4 bg-[#F5F5F5] rounded-[10px] ">
+          <div className="infoContainer pl-3 flex items-center justify-between">
             <div className="infoHeader">
-              <span data-reactid=".xg80fy4quu.h.2.0.0.9.0.$1.0.0.0">
-                26 warehouses
-              </span>
+              <span className="text-2xl font-bold">26 warehouses</span>
             </div>
-            <div
-              className="infoImg"
-              data-reactid=".xg80fy4quu.h.2.0.0.9.0.$1.0.1"
-            >
+            <div className="infoImg">
               <svg
                 id="warehouse"
-                width="30px"
-                height="30px"
+                width="35px"
+                height="35px"
                 viewBox="0 0 43.5 45"
-                data-reactid=".xg80fy4quu.h.2.0.0.9.0.$1.0.1.0"
               >
                 <path
                   id="Path_68080"
@@ -34,7 +22,6 @@ const ChaldalInfo = () => {
                   d="M51.7,14.38,30.7.13a.75.75,0,0,0-.842,0l-21,14.25A.75.75,0,0,0,8.533,15V44.25a.75.75,0,0,0,.75.75h42a.75.75,0,0,0,.75-.75V15A.749.749,0,0,0,51.7,14.38Z"
                   transform="translate(-8.533 0)"
                   fill="#f07b52"
-                  data-reactid=".xg80fy4quu.h.2.0.0.9.0.$1.0.1.0.0"
                 ></path>
                 <path
                   id="Path_68081"
@@ -42,7 +29,6 @@ const ChaldalInfo = () => {
                   d="M10.783,44.249V15a.75.75,0,0,1,.329-.621L31.408.606,30.7.129a.75.75,0,0,0-.842,0l-21,14.25A.75.75,0,0,0,8.533,15v29.25a.75.75,0,0,0,.75.75h2.25A.75.75,0,0,1,10.783,44.249Z"
                   transform="translate(-8.533 0.001)"
                   fill="#e5563c"
-                  data-reactid=".xg80fy4quu.h.2.0.0.9.0.$1.0.1.0.1"
                 ></path>
                 <path
                   id="Path_68082"
@@ -50,7 +36,6 @@ const ChaldalInfo = () => {
                   d="M121.617,204.8h-27a.75.75,0,0,0-.75.75v25.5a.75.75,0,0,0,.75.75h27a.75.75,0,0,0,.75-.75v-25.5A.75.75,0,0,0,121.617,204.8Z"
                   transform="translate(-86.367 -186.8)"
                   fill="#74757b"
-                  data-reactid=".xg80fy4quu.h.2.0.0.9.0.$1.0.1.0.2"
                 ></path>
                 <path
                   id="Path_68083"
@@ -58,7 +43,6 @@ const ChaldalInfo = () => {
                   d="M94.617,204.8a.75.75,0,0,0-.75.75v25.5a.75.75,0,0,0,.75.75h1.5v-27Z"
                   transform="translate(-86.367 -186.8)"
                   fill="#606268"
-                  data-reactid=".xg80fy4quu.h.2.0.0.9.0.$1.0.1.0.3"
                 ></path>
                 <path
                   id="Path_68084"
@@ -66,7 +50,6 @@ const ChaldalInfo = () => {
                   d="M107.551,170.667h-30a.75.75,0,0,0-.75.75v3a.75.75,0,0,0,.75.75h30a.75.75,0,0,0,.75-.75v-3A.75.75,0,0,0,107.551,170.667Z"
                   transform="translate(-70.801 -155.667)"
                   fill="#c3c4c6"
-                  data-reactid=".xg80fy4quu.h.2.0.0.9.0.$1.0.1.0.4"
                 ></path>
                 <path
                   id="Path_68085"
@@ -74,13 +57,11 @@ const ChaldalInfo = () => {
                   d="M107.551,197.017h-30a.75.75,0,0,1-.75-.75v1.5a.75.75,0,0,0,.75.75h30a.75.75,0,0,0,.75-.75v-1.5A.75.75,0,0,1,107.551,197.017Z"
                   transform="translate(-70.801 -179.017)"
                   fill="#afb0b4"
-                  data-reactid=".xg80fy4quu.h.2.0.0.9.0.$1.0.1.0.5"
                 ></path>
                 <g
                   id="Group_41985"
                   data-name="Group 41985"
                   transform="translate(18 5.25)"
-                  data-reactid=".xg80fy4quu.h.2.0.0.9.0.$1.0.1.0.6"
                 >
                   <path
                     id="Path_68086"
@@ -88,7 +69,6 @@ const ChaldalInfo = () => {
                     d="M220.084,61.234h-6a.75.75,0,1,1,0-1.5h6a.75.75,0,1,1,0,1.5Z"
                     transform="translate(-213.334 -59.734)"
                     fill="#e5563c"
-                    data-reactid=".xg80fy4quu.h.2.0.0.9.0.$1.0.1.0.6.0"
                   ></path>
                   <path
                     id="Path_68087"
@@ -96,7 +76,6 @@ const ChaldalInfo = () => {
                     d="M220.084,95.368h-6a.75.75,0,1,1,0-1.5h6a.75.75,0,1,1,0,1.5Z"
                     transform="translate(-213.334 -90.868)"
                     fill="#e5563c"
-                    data-reactid=".xg80fy4quu.h.2.0.0.9.0.$1.0.1.0.6.1"
                   ></path>
                   <path
                     id="Path_68088"
@@ -104,14 +83,12 @@ const ChaldalInfo = () => {
                     d="M220.084,129.5h-6a.75.75,0,1,1,0-1.5h6a.75.75,0,1,1,0,1.5Z"
                     transform="translate(-213.334 -122.001)"
                     fill="#e5563c"
-                    data-reactid=".xg80fy4quu.h.2.0.0.9.0.$1.0.1.0.6.2"
                   ></path>
                 </g>
                 <g
                   id="Group_41986"
                   data-name="Group 41986"
                   transform="translate(7.5 24)"
-                  data-reactid=".xg80fy4quu.h.2.0.0.9.0.$1.0.1.0.7"
                 >
                   <path
                     id="Path_68089"
@@ -119,7 +96,6 @@ const ChaldalInfo = () => {
                     d="M103.617,273.067h-9a.75.75,0,0,0-.75.75v9a.75.75,0,0,0,.75.75l4.5.75,4.5-.75a.75.75,0,0,0,.75-.75v-9A.75.75,0,0,0,103.617,273.067Z"
                     transform="translate(-93.867 -273.067)"
                     fill="#fddd85"
-                    data-reactid=".xg80fy4quu.h.2.0.0.9.0.$1.0.1.0.7.0"
                   ></path>
                   <path
                     id="Path_68090"
@@ -127,7 +103,6 @@ const ChaldalInfo = () => {
                     d="M103.617,392.534h-9a.75.75,0,0,0-.75.75v9a.75.75,0,0,0,.75.75h9a.75.75,0,0,0,.75-.75v-9A.75.75,0,0,0,103.617,392.534Z"
                     transform="translate(-93.867 -382.034)"
                     fill="#fddd85"
-                    data-reactid=".xg80fy4quu.h.2.0.0.9.0.$1.0.1.0.7.1"
                   ></path>
                 </g>
                 <path
@@ -136,7 +111,6 @@ const ChaldalInfo = () => {
                   d="M95.367,402.284v-9a.75.75,0,0,1,.75-.75h-1.5a.75.75,0,0,0-.75.75v9a.75.75,0,0,0,.75.75h1.5A.75.75,0,0,1,95.367,402.284Z"
                   transform="translate(-86.367 -358.034)"
                   fill="#fdd042"
-                  data-reactid=".xg80fy4quu.h.2.0.0.9.0.$1.0.1.0.8"
                 ></path>
                 <path
                   id="Path_68092"
@@ -144,7 +118,6 @@ const ChaldalInfo = () => {
                   d="M139.534,392.534h-3v3.75a.75.75,0,0,0,.75.75h1.5a.75.75,0,0,0,.75-.75Z"
                   transform="translate(-125.284 -358.034)"
                   fill="#f2c127"
-                  data-reactid=".xg80fy4quu.h.2.0.0.9.0.$1.0.1.0.9"
                 ></path>
                 <path
                   id="Path_68093"
@@ -152,7 +125,6 @@ const ChaldalInfo = () => {
                   d="M131.751,479.368h-3a.75.75,0,1,1,0-1.5h3a.75.75,0,1,1,0,1.5Z"
                   transform="translate(-117.501 -435.868)"
                   fill="#74757b"
-                  data-reactid=".xg80fy4quu.h.2.0.0.9.0.$1.0.1.0.a"
                 ></path>
                 <path
                   id="Path_68094"
@@ -160,7 +132,6 @@ const ChaldalInfo = () => {
                   d="M95.367,282.817v-9a.75.75,0,0,1,.75-.75h-1.5a.75.75,0,0,0-.75.75v9a.75.75,0,0,0,.75.75h1.5A.75.75,0,0,1,95.367,282.817Z"
                   transform="translate(-86.367 -249.067)"
                   fill="#fdd042"
-                  data-reactid=".xg80fy4quu.h.2.0.0.9.0.$1.0.1.0.b"
                 ></path>
                 <path
                   id="Path_68095"
@@ -168,7 +139,6 @@ const ChaldalInfo = () => {
                   d="M139.534,273.067h-3v3.75a.75.75,0,0,0,.75.75h1.5a.75.75,0,0,0,.75-.75Z"
                   transform="translate(-125.284 -249.067)"
                   fill="#f2c127"
-                  data-reactid=".xg80fy4quu.h.2.0.0.9.0.$1.0.1.0.c"
                 ></path>
                 <path
                   id="Path_68096"
@@ -176,7 +146,6 @@ const ChaldalInfo = () => {
                   d="M131.751,359.9h-3a.75.75,0,1,1,0-1.5h3a.75.75,0,1,1,0,1.5Z"
                   transform="translate(-117.501 -326.901)"
                   fill="#74757b"
-                  data-reactid=".xg80fy4quu.h.2.0.0.9.0.$1.0.1.0.d"
                 ></path>
                 <path
                   id="Path_68097"
@@ -184,7 +153,6 @@ const ChaldalInfo = () => {
                   d="M223.084,392.534h-9a.75.75,0,0,0-.75.75v9a.75.75,0,0,0,.75.75h9a.75.75,0,0,0,.75-.75v-9A.75.75,0,0,0,223.084,392.534Z"
                   transform="translate(-195.334 -358.034)"
                   fill="#fddd85"
-                  data-reactid=".xg80fy4quu.h.2.0.0.9.0.$1.0.1.0.e"
                 ></path>
                 <path
                   id="Path_68098"
@@ -192,7 +160,6 @@ const ChaldalInfo = () => {
                   d="M214.833,402.284v-9a.75.75,0,0,1,.75-.75h-1.5a.75.75,0,0,0-.75.75v9a.75.75,0,0,0,.75.75h1.5A.75.75,0,0,1,214.833,402.284Z"
                   transform="translate(-195.333 -358.034)"
                   fill="#fdd042"
-                  data-reactid=".xg80fy4quu.h.2.0.0.9.0.$1.0.1.0.f"
                 ></path>
                 <path
                   id="Path_68099"
@@ -200,7 +167,6 @@ const ChaldalInfo = () => {
                   d="M259,392.534h-3v3.75a.75.75,0,0,0,.75.75h1.5a.75.75,0,0,0,.75-.75v-3.75Z"
                   transform="translate(-234.25 -358.034)"
                   fill="#f2c127"
-                  data-reactid=".xg80fy4quu.h.2.0.0.9.0.$1.0.1.0.g"
                 ></path>
                 <path
                   id="Path_68100"
@@ -208,42 +174,22 @@ const ChaldalInfo = () => {
                   d="M251.217,479.368h-3a.75.75,0,0,1,0-1.5h3a.75.75,0,0,1,0,1.5Z"
                   transform="translate(-226.467 -435.868)"
                   fill="#74757b"
-                  data-reactid=".xg80fy4quu.h.2.0.0.9.0.$1.0.1.0.h"
                 ></path>
               </svg>
             </div>
           </div>
-          <div
-            className="info-subtitle"
-            data-reactid=".xg80fy4quu.h.2.0.0.9.0.$1.1"
-          >
-            all over bangladesh
-          </div>
+          <p className="pl-3 text-left mt-3">all over bangladesh</p>
         </div>
-        <div
-          className="infoBox w-[100%] py-3 px-4 flex flex-col justify-center items-center bg-[#F5F5F5] rounded-[10px] "
-          data-reactid=".xg80fy4quu.h.2.0.0.9.0.$2"
-        >
-          <div
-            className="infoContainer"
-            data-reactid=".xg80fy4quu.h.2.0.0.9.0.$2.0"
-          >
-            <div
-              className="infoHeader"
-              data-reactid=".xg80fy4quu.h.2.0.0.9.0.$2.0.0"
-            >
-              <span data-reactid=".xg80fy4quu.h.2.0.0.9.0.$2.0.0.0">
-                5 million orders
-              </span>
+        <div className="infoBox w-[100%] min-h-[130px] py-4 px-4 bg-[#F5F5F5] rounded-[10px] ">
+          <div className="infoContainer pl-3 flex items-center justify-between">
+            <div className="infoHeader">
+              <span className="text-2xl font-bold">5 million orders</span>
             </div>
-            <div
-              className="infoImg"
-              data-reactid=".xg80fy4quu.h.2.0.0.9.0.$2.0.1"
-            >
+            <div className="infoImg">
               <svg
                 id="grocery"
-                width="30px"
-                height="30px"
+                width="35px"
+                height="35px"
                 viewBox="0 0 41.897 45"
                 data-reactid=".xg80fy4quu.h.2.0.0.9.0.$2.0.1.0"
               >
@@ -434,37 +380,18 @@ const ChaldalInfo = () => {
               </svg>
             </div>
           </div>
-          <div
-            className="info-subtitle"
-            data-reactid=".xg80fy4quu.h.2.0.0.9.0.$2.1"
-          >
-            have been delivered
-          </div>
+          <p className="pl-3 text-left mt-3">have been delivered</p>
         </div>
-        <div
-          className="infoBox w-[100%] py-3 px-4 flex flex-col justify-center items-center bg-[#F5F5F5] rounded-[10px] "
-          data-reactid=".xg80fy4quu.h.2.0.0.9.0.$3"
-        >
-          <div
-            className="infoContainer"
-            data-reactid=".xg80fy4quu.h.2.0.0.9.0.$3.0"
-          >
-            <div
-              className="infoHeader"
-              data-reactid=".xg80fy4quu.h.2.0.0.9.0.$3.0.0"
-            >
-              <span data-reactid=".xg80fy4quu.h.2.0.0.9.0.$3.0.0.0">
-                100,000 families
-              </span>
+        <div className="infoBox w-[100%] min-h-[130px] py-4 px-4 bg-[#F5F5F5] rounded-[10px] ">
+          <div className="infoContainer pl-3 flex items-center justify-between">
+            <div className="infoHeader">
+              <span className="text-2xl font-bold">100,000 families</span>
             </div>
-            <div
-              className="infoImg"
-              data-reactid=".xg80fy4quu.h.2.0.0.9.0.$3.0.1"
-            >
+            <div className="infoImg">
               <svg
                 id="family"
-                width="30px"
-                height="30px"
+                width="35px"
+                height="35px"
                 viewBox="0 0 44.999 45"
                 data-reactid=".xg80fy4quu.h.2.0.0.9.0.$3.0.1.0"
               >
@@ -932,33 +859,14 @@ const ChaldalInfo = () => {
               </svg>
             </div>
           </div>
-          <div
-            className="info-subtitle"
-            data-reactid=".xg80fy4quu.h.2.0.0.9.0.$3.1"
-          >
-            are being served
-          </div>
+          <p className="pl-3 text-left mt-3">are being served</p>
         </div>
-        <div
-          className="infoBox w-[100%] py-3 px-4 flex flex-col justify-center items-center bg-[#F5F5F5] rounded-[10px] col-start-2"
-          data-reactid=".xg80fy4quu.h.2.0.0.9.0.$4"
-        >
-          <div
-            className="infoContainer"
-            data-reactid=".xg80fy4quu.h.2.0.0.9.0.$4.0"
-          >
-            <div
-              className="infoHeader"
-              data-reactid=".xg80fy4quu.h.2.0.0.9.0.$4.0.0"
-            >
-              <span data-reactid=".xg80fy4quu.h.2.0.0.9.0.$4.0.0.0">
-                340 million Taka
-              </span>
+        <div className="infoBox w-[100%] min-h-[130px] py-4 px-4 bg-[#F5F5F5] rounded-[10px] col-start-2">
+          <div className="infoContainer pl-3 flex items-center justify-between">
+            <div className="infoHeader">
+              <span className="text-2xl font-bold">340 million Taka</span>
             </div>
-            <div
-              className="infoImg"
-              data-reactid=".xg80fy4quu.h.2.0.0.9.0.$4.0.1"
-            >
+            <div className="infoImg">
               <svg
                 id="money_·_shopping_·_shop_·_ecommerce_·_hand"
                 data-name="money · shopping · shop · ecommerce · hand"
@@ -1064,12 +972,7 @@ const ChaldalInfo = () => {
               </svg>
             </div>
           </div>
-          <div
-            className="info-subtitle"
-            data-reactid=".xg80fy4quu.h.2.0.0.9.0.$4.1"
-          >
-            customer savings
-          </div>
+          <p className="pl-3 text-left mt-3">customer savings</p>
         </div>
       </div>
     </div>
