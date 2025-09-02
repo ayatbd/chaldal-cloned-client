@@ -22,7 +22,6 @@ Landing Banner sectoion css
 ========================================*/
 
 .landingBanner {
-    /* background: url(https://chaldn.com/asset/egg-chaldal-web-release-id-27065/https/Default/stores/chaldal/components/landingPage2/LandingPage/images/landingBanner.png) no-repeat center; */
     background-image: url(https://chaldn.com/asset/egg-chaldal-web-release-id-27065/https/Default/stores/chaldal/components/landingPage2/LandingPage/images/landingBanner.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -73,3 +72,14 @@ Delivery Info
     text-align: left;
     width: 65%;
 } */
+
+
+/*==========================
+Download app section css
+============================*/
+
+.downloadApp {
+    background-image: url(https://chaldn.com/asset/egg-chaldal-web-release-id-27065/https/Default/stores/chaldal/components/landingPage2/LandingPage/images/downloadAppBackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
