@@ -3,6 +3,7 @@ import DeliveryInfo from "./DeliveryInfo";
 import Categories from "./Categories";
 import Popular from "./Popular";
 import DownloadApp from "./DownloadApp";
+import ChaldalInfo from "./ChaldalInfo";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <Categories></Categories>
       <Popular></Popular>
       <DownloadApp></DownloadApp>
+      <ChaldalInfo></ChaldalInfo>
     </div>
   );
 };

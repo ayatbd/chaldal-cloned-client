@@ -83,3 +83,15 @@ Download app section css
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+/* .mainTile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    margin-inline: 5%;
+} */
+
+.infoBox {
+    width: 33%;
+}
