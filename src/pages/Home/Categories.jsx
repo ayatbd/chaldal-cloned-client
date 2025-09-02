@@ -52,7 +52,7 @@ const Categories = () => {
       <div className="w-full px-6">
         {/* Header */}
         <div className="mb-4 flex justify-between items-center">
-          <span className="invisible">span</span>
+          <span className="invisible">spankkfhsfdsflkdhf</span>
           <h2 className="text-[#2D3A3F] text-[20px] font-[400]">
             Popular Categories
           </h2>
