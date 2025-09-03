@@ -118,3 +118,7 @@ Daily necessities section css
     background: url(https://chaldn.com/asset/egg-chaldal-web-release-id-27065/https/Default/stores/chaldal/components/landingPage2/LandingPage/images/shop_and_get_More/dailyGrocery.png) no-repeat center;
     background-size: cover;
 }
+
+.CommonQContainer {
+    border: 1.4px solid #e8e8e8;
+}

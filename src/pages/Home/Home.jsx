@@ -7,6 +7,7 @@ import ChaldalInfo from "./ChaldalInfo";
 import CurrentDelivery from "./CurrentDelivery";
 import ShopInfo from "./ShopInfo";
 import DailyNecessities from "./DailyNecessities";
+import CommonQuestion from "./CommonQuestion";
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
       <DownloadApp></DownloadApp>
       <ChaldalInfo></ChaldalInfo>
       <CurrentDelivery></CurrentDelivery>
+      <CommonQuestion></CommonQuestion>
     </div>
   );
 };
