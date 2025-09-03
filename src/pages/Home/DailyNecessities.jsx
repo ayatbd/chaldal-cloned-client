@@ -5,9 +5,9 @@ const DailyNecessities = () => {
     <div className="mx-14 mb-5">
       <div className="wrapper">
         <div className="container grid grid-cols-2 gap-5 5 w-full">
-          <div className="daily py-7 basis-1/2 rounded-[10px]">
+          <div className="daily py-9 basis-1/2 rounded-[10px]">
             <div className="descriptionBox w-[55%] m-[10px] pl-[2%] h-full">
-              <div className="label flex flex-col items-start h-full justify-center gap-6">
+              <div className="label flex flex-col items-start h-full justify-center gap-7">
                 <h3 className="font-bold text-2xl text-black">
                   Shop your daily necessities
                 </h3>
@@ -19,14 +19,15 @@ const DailyNecessities = () => {
                   className="bg-[#ff686e] text-center py-2 w-[65%] rounded-[10px] text-white shadow-[0 1px 3px 0 rgba(0, 0, 0, .3)]"
                   to="/popular"
                 >
-                  <button>Start Shopping</button>
+                  Start Shopping
                 </Link>
               </div>
             </div>
             <div className="w-[45%] h-full"></div>
           </div>
-          <div className="flex-1">
+          <div className="flex-1 ">
             <iframe
+              className="h-full w-full rounded-[10px]"
               src="https://www.youtube.com/embed/-Xg2kGPwePM"
               frameborder="0"
               allowfullscreen=""
