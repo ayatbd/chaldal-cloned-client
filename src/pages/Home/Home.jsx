@@ -8,6 +8,7 @@ import CurrentDelivery from "./CurrentDelivery";
 import ShopInfo from "./ShopInfo";
 import DailyNecessities from "./DailyNecessities";
 import CommonQuestion from "./CommonQuestion";
+import FamilySuggestion from "./FamilySuggestion";
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
       <ChaldalInfo></ChaldalInfo>
       <CurrentDelivery></CurrentDelivery>
       <CommonQuestion></CommonQuestion>
+      <FamilySuggestion></FamilySuggestion>
     </div>
   );
 };
