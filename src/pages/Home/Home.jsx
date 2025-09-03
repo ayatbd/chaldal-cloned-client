@@ -6,6 +6,7 @@ import DownloadApp from "./DownloadApp";
 import ChaldalInfo from "./ChaldalInfo";
 import CurrentDelivery from "./CurrentDelivery";
 import ShopInfo from "./ShopInfo";
+import DailyNecessities from "./DailyNecessities";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Categories></Categories>
       <Popular></Popular>
       <ShopInfo></ShopInfo>
+      <DailyNecessities></DailyNecessities>
       <DownloadApp></DownloadApp>
       <ChaldalInfo></ChaldalInfo>
       <CurrentDelivery></CurrentDelivery>

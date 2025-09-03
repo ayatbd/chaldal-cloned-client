@@ -109,3 +109,12 @@ Current Delivery section css
     min-height: 50px;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, .19);
 }
+
+/*==========================
+Daily necessities section css
+============================*/
+
+.daily {
+    background: url(https://chaldn.com/asset/egg-chaldal-web-release-id-27065/https/Default/stores/chaldal/components/landingPage2/LandingPage/images/shop_and_get_More/dailyGrocery.png) no-repeat center;
+    background-size: cover;
+}

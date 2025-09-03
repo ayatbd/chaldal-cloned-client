@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import NavEnd from "./NavEnd";
-import { HiOutlineMenuAlt2 } from "react-icons/hi";
+import { IoSearch } from "react-icons/io5";
 
 const Navbar = () => {
   const [showSearch, setShowSearch] = useState(false);
@@ -72,7 +72,7 @@ const Navbar = () => {
         {showSearch && (
           <div className="flex-1 px-7">
             <form
-              className="w-full h-[40px] rounded"
+              className="w-full h-[40px] rounded overflow-hidden"
               aria-labelledby="newsletter-headline"
             >
               <div className="w-full h-full">
@@ -89,7 +89,7 @@ const Navbar = () => {
                     type="submit"
                     className="bg-white h-full px-3 flex items-center"
                   >
-                    🔍
+                    <IoSearch className="text-gray-500 text-2xl" />
                   </button>
                 </div>
               </div>

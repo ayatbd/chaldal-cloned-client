@@ -11,7 +11,7 @@ const LandingBanner = () => {
           <div className="w-full pl-3">
             <form
               id="hero"
-              className="w-full h-[40px]" // fixed height instead of min-h
+              className="w-full h-[40px] overflow-hidden rounded" // fixed height instead of min-h
               aria-labelledby="newsletter-headline"
             >
               <div className="w-full h-full">
