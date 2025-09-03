@@ -1,6 +1,6 @@
 const TopFooter = () => {
   return (
-    <div className="footer-banner border border-gray-400 pl-[100px]">
+    <div className="footer-banner border border-gray-400 pl-[100px] py-1.5">
       <div className="banner">
         <div className="w-[25%]">
           <span>

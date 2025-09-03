@@ -2,11 +2,11 @@ import AppSuggestion from "../AppSuggestion";
 
 const BottomFooter = () => {
   return (
-    <div className="footer-right w-[30%] flex flex-col items-end">
+    <div className="footer-right w-[30%] flex flex-col items-end overflow-hidden">
       <div className="mobileApp w-full">
         <div className="">
-          <div className="chaldalAppsContent">
-            <form>
+          <div className="">
+            <form className="overflow-hidden">
               <div className="inputGroup bg-white flex items-center justify-center text-[10px] border-[.5px] border-solid border-[#9B60E8] p-[1%] rounded-[10px]">
                 <div className="w-full">
                   <input
