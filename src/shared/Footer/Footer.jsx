@@ -1,15 +1,15 @@
-import React from "react";
 import TopFooter from "./TopFooter";
+import BottomFooter from "./BottomFooter";
 
 const Footer = () => {
   return (
-    <div className="bg-[rgba(194,194,194,.2)] pl-[100px]">
+    <div className="bg-[rgba(194,194,194,.2)]">
       <TopFooter></TopFooter>
-      <div>
+      <div className="pl-[100px] pr-[60px] py-8 flex justify-center items-center">
         <div className="footer-left w-[70%]">
           <div className="footerBottom flex justify-center">
             <div className="list-type customer-service basis-1/3 space-y-2.5">
-              <p className="text-[18px] font-bold">
+              <p className="text-[18px] text-gray-600 font-bold">
                 <span> </span>
                 <span>About Chaldal</span>
                 <span> </span>
@@ -31,7 +31,7 @@ const Footer = () => {
               </ul>
             </div>
             <div className="list-type customer-service basis-1/3 space-y-2.5">
-              <p className="text-[18px] font-bold">
+              <p className="text-[18px] text-gray-600 font-bold">
                 <span> </span>
                 <span>Customer Service</span>
                 <span> </span>
@@ -48,7 +48,7 @@ const Footer = () => {
               </ul>
             </div>
             <div className="list-type customer-service basis-1/3 space-y-2.5">
-              <p className="text-[18px] font-bold">
+              <p className="text-[18px] text-gray-600 font-bold">
                 <span> </span>
                 <span>For Business</span>
                 <span> </span>
@@ -62,8 +62,10 @@ const Footer = () => {
             </div>
           </div>
           <div className="right-area">
-            <ul className="flex justify-start items-center">
-              <li className="text">Payment Methods</li>
+            <ul className="flex justify-start items-center gap-2">
+              <li className="text-[18px] text-gray-600 font-bold">
+                Payment Methods
+              </li>
               <li className="icon">
                 <img
                   className="w-9 h-9"
@@ -91,6 +93,7 @@ const Footer = () => {
             </ul>
           </div>
         </div>
+        <BottomFooter></BottomFooter>
       </div>
     </div>
   );
