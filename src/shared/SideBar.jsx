@@ -1,18 +1,9 @@
 import { useState } from "react";
-import {
-  FaChartBar,
-  FaTasks,
-  FaBuilding,
-  FaFileAlt,
-  FaUser,
-  FaBars,
-  FaTimes,
-  FaHeart,
-  FaTags,
-  FaShoppingCart,
-} from "react-icons/fa";
+import { FaEgg } from "react-icons/fa";
 import Home from "../pages/Home/Home";
 import { RiMenu2Fill } from "react-icons/ri";
+import { BsCapsule } from "react-icons/bs";
+import { GiCampCookingPot } from "react-icons/gi";
 
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(true);
@@ -42,18 +33,29 @@ const Sidebar = () => {
           isOpen ? "w-56" : "w-0"
         } overflow-hidden z-40`}
       >
-        <nav className="mt-16 p-4">
-          <ul className="p-4 space-y-4">
-            <li className="flex items-center gap-2 hover:text-yellow-600 cursor-pointer">
-              <FaHeart /> Favourites
-            </li>
-            <li className="flex items-center gap-2 hover:text-yellow-600 cursor-pointer">
-              <FaTags /> Offers
-            </li>
-            <li className="flex items-center gap-2 hover:text-yellow-600 cursor-pointer">
-              <FaShoppingCart /> Grocery
-            </li>
-          </ul>
+        <nav className="mt-14 p-[8px]">
+          <div className="border-b">
+            <div className="flex items-center justify-center gap-1">
+              <div className="flex flex-col items-center justify-center gap-1.5 basis-1/3 border-[1px] border-solid border-[#ff686e] rounded-[5px] p-1">
+                <span className="text-[#FFB68E] bg-[#EBD023] p-[3px] rounded-full">
+                  <FaEgg />
+                </span>
+                <h5 className="name text-[11px] font-semibold">Grocery</h5>
+              </div>
+              <div className="flex flex-col items-center justify-center gap-1.5 basis-1/3 border-[1px] border-solid border-[#ff686e] rounded-[5px] p-1">
+                <span className="text-[#FFB68E] bg-[#EBD023] p-[3px] rounded-full">
+                  <BsCapsule />
+                </span>
+                <h5 className="name text-[11px] font-semibold">Pharmacy</h5>
+              </div>
+              <div className="flex flex-col items-center justify-center gap-1.5 basis-1/3 border-[1px] border-solid border-[#ff686e] rounded-[5px] p-1">
+                <span className="text-[#FFB68E] bg-[#EBD023] p-[3px] rounded-full">
+                  <GiCampCookingPot />
+                </span>
+                <h5 className="name text-[11px] font-semibold">Cookups</h5>
+              </div>
+            </div>
+          </div>
         </nav>
       </aside>
 
