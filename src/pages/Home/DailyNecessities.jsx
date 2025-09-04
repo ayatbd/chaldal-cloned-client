@@ -15,12 +15,12 @@ const DailyNecessities = () => {
                   Shop from our popular category, <br /> Explore special offers
                   and receive grocery <br /> on your doorsteps within 1 hour.
                 </p>
-                <Link
+                <a
                   className="bg-[#ff686e] text-center py-2 w-[65%] rounded-[10px] text-white shadow-[0 1px 3px 0 rgba(0, 0, 0, .3)]"
                   to="/popular"
                 >
                   Start Shopping
-                </Link>
+                </a>
               </div>
             </div>
             <div className="w-[45%] h-full"></div>

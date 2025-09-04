@@ -1,10 +1,12 @@
+import { Link } from "react-router-dom";
+
 const AppSuggestion = () => {
   return (
     <>
       <div>
-        <div class="iconContainer flex items-center justify-center gap-2">
+        <div className="iconContainer flex items-center justify-center gap-2">
           <div>
-            <a href="https://itunes.apple.com/us/app/chaldal-online-grocery/id1104493220">
+            <Link href="https://itunes.apple.com/us/app/chaldal-online-grocery/id1104493220">
               <svg
                 id="App-Store-Badge"
                 width="100px"
@@ -207,10 +209,10 @@ const AppSuggestion = () => {
                   </g>
                 </g>
               </svg>
-            </a>
+            </Link>
           </div>
           <div>
-            <a
+            <Link
               href="https://play.google.com/store/apps/details?id=com.chaldal.poached"
               data-reactid=".xg80fy4quu.h.2.0.0.8.0.0.0.2.1.0"
             >
@@ -545,7 +547,7 @@ const AppSuggestion = () => {
                   ></path>
                 </g>
               </svg>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
