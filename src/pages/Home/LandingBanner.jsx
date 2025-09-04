@@ -37,10 +37,7 @@ const LandingBanner = () => {
         </div>
       </div>
       {/* <div className=""></div> */}
-      <div
-        className="banner-image basis-1/2"
-        data-reactid=".pyflnd72sc.h.2.0.0.0.1"
-      >
+      <div className="banner-image basis-1/2 overflow-hidden flex flex-row-reverse pl-12">
         <img
           src="https://chaldn.com/asset/egg-chaldal-web-release-id-27065/https/Default/stores/chaldal/components/landingPage2/LandingPage/images/imageBanner.png?q=low"
           data-reactid=".pyflnd72sc.h.2.0.0.0.1.0"
