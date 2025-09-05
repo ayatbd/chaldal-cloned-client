@@ -28,18 +28,20 @@ const NavEnd = () => {
           <FaChevronDown className="text-[#FF6F71]" />
         </p>
       </button>
-      <div className="flex items-center bg-white rounded-full py-0.5 px-[10px] cursor-pointer">
-        <span className="text-[#FF6F71] font-[700] text-[14px] pr-2">EN</span>
-        <span className="font-[700] text-[14px] hover:text-[#FF6F71] border-l-1 border-gray-200 pl-2">
-          বাং
-        </span>
+      <div>
+        <button className="flex items-center bg-white rounded-full py-0.5 px-[10px] cursor-pointer">
+          <span className="text-[#FF6F71] font-[700] text-[14px] pr-2">EN</span>
+          <span className="font-[700] text-[14px] hover:text-[#FF6F71] border-l-1 border-gray-200 pl-2">
+            বাং
+          </span>
+        </button>
       </div>
       <div>
         <button
           className="py-1.5 bg-[#ff686e] hover:bg-[#e04f54] transform delay-75 px-10 text-[16px] text-white rounded-sm cursor-pointer "
           onClick={() => document.getElementById("my_modal_2").showModal()}
         >
-          LogIn
+          Login
         </button>
         <dialog id="my_modal_2" className="modal">
           <div className="modal-box max-w-[380px] bg-white">

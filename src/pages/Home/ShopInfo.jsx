@@ -21,7 +21,7 @@ const ShopInfo = () => {
                 <span> </span>
                 <span>
                   The more you shop the more you earn - cash back, free
-                  shipping, exclusive offers and more. Discover the perks of{" "}
+                  shipping, exclusive offers and more. Discover the perks of
                   <b>Egg Club</b> membership.
                 </span>
                 <span> </span>

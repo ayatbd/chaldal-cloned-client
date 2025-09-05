@@ -1,22 +1,31 @@
 import { useState } from "react";
-import { FaEgg } from "react-icons/fa";
+import {
+  FaEgg,
+  FaTags,
+  FaHeart,
+  FaBolt,
+  FaUtensils,
+  FaBroom,
+  FaUser,
+  FaHeartbeat,
+  FaBaby,
+  FaHome,
+  FaPen,
+  FaPaw,
+  FaFutbol,
+  FaPaintBrush,
+  FaTshirt,
+} from "react-icons/fa";
 import Home from "../pages/Home/Home";
 import { RiMenu2Fill } from "react-icons/ri";
 import { BsCapsule } from "react-icons/bs";
 import { GiCampCookingPot } from "react-icons/gi";
+import "../styles/style.css";
 
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(true);
 
   const toggleSidebar = () => setIsOpen(!isOpen);
-
-  // const menuItems = [
-  //   { icon: FaChartBar, text: "Dashboard" },
-  //   { icon: FaTasks, text: "Tasks" },
-  //   { icon: FaBuilding, text: "Companies" },
-  //   { icon: FaFileAlt, text: "Applications" },
-  //   { icon: FaUser, text: "Profile" },
-  // ];
 
   return (
     <div className="relative">
@@ -33,9 +42,9 @@ const Sidebar = () => {
           isOpen ? "w-56" : "w-0"
         } overflow-hidden z-40`}
       >
-        <nav className="mt-14 p-[8px]">
-          <div className="border-b">
-            <div className="flex items-center justify-center gap-1">
+        <nav className="mt-14 ">
+          <div className="">
+            <div className="flex items-center justify-center gap-1 p-2.5 border-b border-gray-200">
               <div className="flex flex-col items-center justify-center gap-1.5 basis-1/3 border-[1px] border-solid border-[#ff686e] rounded-[5px] p-1">
                 <span className="text-[#FFB68E] bg-[#EBD023] p-[3px] rounded-full">
                   <FaEgg />
@@ -55,6 +64,59 @@ const Sidebar = () => {
                 <h5 className="name text-[11px] font-semibold">Cookups</h5>
               </div>
             </div>
+            <ul className="p-4 space-y-3 text-gray-700 font-medium navList">
+              <li className="flex items-center gap-3 hover:text-yellow-600 cursor-pointer">
+                <FaTags /> Offers
+                <span className="ml-auto text-xs bg-red-500 text-white px-2 py-0.5 rounded-full">
+                  50
+                </span>
+              </li>
+              <li className="flex items-center gap-3 hover:text-yellow-600 cursor-pointer">
+                <FaHeart /> Favourites
+              </li>
+              <li className="flex items-center gap-3 hover:text-yellow-600 cursor-pointer">
+                <FaBolt /> Flash Sales
+              </li>
+              <li className="flex items-center gap-3 hover:text-yellow-600 cursor-pointer">
+                <FaUtensils /> Food
+              </li>
+              <li className="flex items-center gap-3 hover:text-yellow-600 cursor-pointer">
+                <FaBroom /> Cleaning Supplies
+              </li>
+              <li className="flex items-center gap-3 hover:text-yellow-600 cursor-pointer">
+                <FaUser /> Personal Care
+              </li>
+              <li className="flex items-center gap-3 hover:text-yellow-600 cursor-pointer">
+                <FaHeartbeat /> Health & Wellness
+              </li>
+              <li className="flex items-center gap-3 hover:text-yellow-600 cursor-pointer">
+                <FaBaby /> Baby Care
+              </li>
+              <li className="flex items-center gap-3 hover:text-yellow-600 cursor-pointer">
+                <FaHome /> Home & Kitchen
+              </li>
+              <li className="flex items-center gap-3 hover:text-yellow-600 cursor-pointer">
+                <FaPen /> Stationery & Office
+              </li>
+              <li className="flex items-center gap-3 hover:text-yellow-600 cursor-pointer">
+                <FaPaw /> Pet Care
+              </li>
+              <li className="flex items-center gap-3 hover:text-yellow-600 cursor-pointer">
+                <FaFutbol /> Toys & Sports
+              </li>
+              <li className="flex items-center gap-3 hover:text-yellow-600 cursor-pointer">
+                <FaPaintBrush /> Beauty & Makeup
+              </li>
+              <li className="flex items-center gap-3 hover:text-yellow-600 cursor-pointer">
+                <FaTshirt /> Fashion & Lifestyle
+              </li>
+            </ul>
+          </div>
+          <div className="sticky bottom-0 py-1 border border-solid border-[#eee] bg-white cursor-pointer shadow-2xl">
+            <ul className="flex items-center justify-center w-full gap-0">
+              <li className="basis-1/3 border-[0 1px 0 0] text-center">Help</li>
+              <li className="basis-2/3 text-center">File a complaint</li>
+            </ul>
           </div>
         </nav>
       </aside>

@@ -9,6 +9,8 @@ import ShopInfo from "./ShopInfo";
 import DailyNecessities from "./DailyNecessities";
 import CommonQuestion from "./CommonQuestion";
 import FamilySuggestion from "./FamilySuggestion";
+import Navbar from "../../shared/Navbar/Navbar";
+import Footer from "../../shared/Footer/Footer";
 
 const Home = () => {
   return (
@@ -24,6 +26,7 @@ const Home = () => {
       <CurrentDelivery></CurrentDelivery>
       <CommonQuestion></CommonQuestion>
       <FamilySuggestion></FamilySuggestion>
+      <Footer></Footer>
     </div>
   );
 };

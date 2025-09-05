@@ -28,7 +28,7 @@ const Login = () => {
         <button className="w-full flex justify-center items-center border border-gray-300 py-4 rounded mb-4 text-sm font-medium hover:bg-gray-100">
           <span className="mr-2">
             <TfiEmail className="text-xl mr-1.5" />
-          </span>{" "}
+          </span>
           Login with <span className="ml-1 font-bold">Email</span>
         </button>
         {/* Divider */}
@@ -66,14 +66,14 @@ const Login = () => {
 
         {/* Footer Disclaimer */}
         <p className="text-[11px] text-gray-500 text-center mt-4 leading-snug">
-          This site is protected by reCAPTCHA and the Google{" "}
+          This site is protected by reCAPTCHA and the Google
           <a href="#" className="text-blue-600 underline">
             Privacy Policy
-          </a>{" "}
-          and{" "}
+          </a>
+          and
           <a href="#" className="text-blue-600 underline">
             Terms of Service
-          </a>{" "}
+          </a>
           apply.
         </p>
       </div>

@@ -46,33 +46,6 @@ Delivery Info
     color: #FF6F71;
 }
 
-/* .mainTile {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    overflow: visible;
-    text-align: center;
-    justify-items: center;
-    align-items: center;
-}
-
-
-.categoryImg {
-    width: 30%;
-    margin-right: 2%;
-}
-
-.categoryImg svg {
-    width: 30px;
-    height: 30px;
-}
-
-.categoryName {
-    font-size: 16px;
-    text-align: left;
-    width: 65%;
-} */
-
 
 /*==========================
 Download app section css
@@ -121,4 +94,12 @@ Daily necessities section css
 
 .CommonQContainer {
     border: 1.4px solid #e8e8e8;
+}
+
+/*==========================
+Daily necessities section css
+============================*/
+
+.navList li {
+    font-size: 13px;
 }

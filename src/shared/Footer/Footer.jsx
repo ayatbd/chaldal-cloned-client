@@ -5,7 +5,7 @@ import FooterSocial from "./FooterSocial";
 const Footer = () => {
   return (
     <div>
-      <div className="bg-[rgba(194,194,194,.2)]">
+      <div className="bg-[rgba(194,194,194,.2)] z-0">
         <TopFooter></TopFooter>
         <div className="pl-[100px] pr-[60px] py-8 flex justify-center items-center">
           <div className="footer-left w-[70%]">
