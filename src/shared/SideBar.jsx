@@ -28,7 +28,7 @@ const Sidebar = () => {
   const toggleSidebar = () => setIsOpen(!isOpen);
 
   return (
-    <div className="relative">
+    <div className="relative bg-white">
       <button
         onClick={toggleSidebar}
         className="fixed top-2 left-3 z-50 p-2 cursor-pointer transition-all delay-75 hover:bg-[#eeb529]"
@@ -112,10 +112,12 @@ const Sidebar = () => {
               </li>
             </ul>
           </div>
-          <div className="sticky bottom-0 py-1 border border-solid border-[#eee] bg-white cursor-pointer shadow-2xl">
-            <ul className="flex items-center justify-center w-full gap-0">
-              <li className="basis-1/3 border-[0 1px 0 0] text-center">Help</li>
-              <li className="basis-2/3 text-center">File a complaint</li>
+          <div className="sticky bottom-0 border border-solid border-[#e7dfdf] bg-white cursor-pointer shadow-2xl">
+            <ul className="flex items-center justify-center w-full">
+              <li className="basis-1/3 border-r border-gray-300 text-center py-1">
+                Help
+              </li>
+              <li className="basis-2/3 text-center py-1">File a complaint</li>
             </ul>
           </div>
         </nav>
